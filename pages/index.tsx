@@ -5,61 +5,23 @@ const Home: FC = () => {
   return (
     <div className="">
       <Head>
-        <title>Create Next App</title>
+        <title>neet.club</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="">
-        <h1 className="">
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className="">
-          Get started by editing{' '}
-          <code className="">pages/index.js</code>
-        </p>
-
-        <div className="">
-          <a href="https://nextjs.org/docs" className="">
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className="">
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className=""
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className=""
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+      <div className="flex items-center justify-center h-screen bg-gray-600">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-2 p-10 max-w-screen-lg">
+          <img className="w-5/12 md:w-8/12 rounded-full mx-auto" src="https://github.com/JohnTitor.png" alt="avatar"/>
+          <div className="mx-auto">
+            <h2 className="text-3xl text-gray-100 mx-auto">Yuki Okushi</h2>
+            <p className="text-2xl text-gray-300 mx-auto">FLOSS nerd, Rustacean</p>
+            <p className="text-xl text-gray-100 mx-auto my-10">About me: ニートです。Rustチームやコミュニティで色々やっています。暮らせなくなるので性急に一人暮らしできる程度のお賃金で雇ってくれるところを探しています。労働環境の優劣は問いません。</p>
+            <button className="bg-gray-500 text-white font-bold py-2 px-4 rounded my-10"><a href="https://github.com/JohnTitor" target="_blank" rel="noopener noreferer">GitHub</a></button>
+            <button className="bg-gray-500 text-white font-bold py-2 px-4 rounded my-10 mx-4"><a href="mailto:huyuumi@neet.club">Contact (E-mail)</a></button>
+          </div>
         </div>
-      </main>
+      </div>
 
-      <footer className="">
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="" />
-        </a>
-      </footer>
     </div>
   )
 }
