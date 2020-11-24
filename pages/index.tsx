@@ -15,9 +15,9 @@ const Home: FC = () => {
           <div className="mx-auto">
             <h2 className="text-3xl text-gray-100 mx-auto">Yuki Okushi</h2>
             <p className="text-2xl text-gray-300 mx-auto">FLOSS nerd, Rustacean</p>
-            <p className="text-xl text-gray-100 mx-auto my-10">About me: ニートです。Rustチームやコミュニティで色々やっています。暮らせなくなるので性急に一人暮らしできる程度のお賃金で雇ってくれるところを探しています。労働環境の優劣は問いません。</p>
+            <p className="text-xl text-gray-100 mx-auto my-10">About me: 無職です。Rustチームやコミュニティで色々やっています。暮らせなくなるので性急に一人暮らしできる程度のお賃金で雇ってくれるところを探しています。労働環境の優劣は問いません。経歴・連絡は以下のResumeからお願いします。</p>
             <button className="bg-gray-500 text-white font-bold py-2 px-4 rounded my-10"><a href="https://github.com/JohnTitor" target="_blank" rel="noopener noreferer">GitHub</a></button>
-            <button className="bg-gray-500 text-white font-bold py-2 px-4 rounded my-10 mx-4"><a href="mailto:huyuumi@neet.club">Contact (E-mail)</a></button>
+            <button className="bg-gray-500 text-white font-bold py-2 px-4 rounded my-10 mx-4"><a href="https://gist.github.com/JohnTitor/471ff2420c9af8c4098ec480e3deffda" target="_blank" rel="noopener noreferer">Resume</a></button>
           </div>
         </div>
       </div>
