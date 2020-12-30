@@ -7,7 +7,6 @@ const Home: FC = () => {
       <Head>
         <title>neet.club</title>
         <link rel="icon" href="/favicon.ico" />
-        <meta name="robots" content="noindex" />
       </Head>
 
       <div className="flex items-center justify-center h-screen bg-gray-600">
