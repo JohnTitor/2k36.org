@@ -9,15 +9,15 @@
     "deploy": "next build && next export"
   },
   "dependencies": {
-    "next": "10.0.2",
+    "next": "10.0.8",
     "react": "17.0.1",
     "react-dom": "17.0.1"
   },
   "devDependencies": {
     "@types/node": "^14.14.9",
     "@types/react": "^17.0.0",
-    "autoprefixer": "9",
-    "postcss": "7",
+    "autoprefixer": "10.2.5",
+    "postcss": "8.2.7",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat",
     "typescript": "^4.1.2"
   }
