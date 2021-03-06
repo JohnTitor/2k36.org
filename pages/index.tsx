@@ -29,8 +29,17 @@ const Home: FC = () => {
               action="https://github.com/JohnTitor"
               method="get"
             >
-              <button className="bg-gray-500 text-white font-bold py-2 px-4 rounded my-10">
+              <button className="bg-gray-500 text-white font-bold py-2 px-4 rounded my-10 mx-5">
                 GitHub
+              </button>
+            </form>
+            <form
+              style={{display: "inline"}}
+              action="https://blog.neet.club"
+              method="get"
+            >
+              <button className="bg-gray-500 text-white font-bold py-2 px-4 rounded my-10 mx-5">
+                blog
               </button>
             </form>
           </div>
