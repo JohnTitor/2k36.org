@@ -24,24 +24,22 @@ const Home: FC = () => {
             <p className="text-xl text-gray-100 mx-auto my-10">
               About me: Japanese codewriting ninja🥷
             </p>
-            <form
-              style={{display: "inline"}}
-              action="https://github.com/JohnTitor"
-              method="get"
+            <a
+              href="https://github.com/JohnTitor"
+              target="_blank"
+              rel="noopener noreferer"
+              className="bg-gray-500 hover:bg-gray-400 text-white font-bold py-2 px-4 rounded my-10 mx-5"
             >
-              <button className="bg-gray-500 text-white font-bold py-2 px-4 rounded my-10 mx-5">
-                GitHub
-              </button>
-            </form>
-            <form
-              style={{display: "inline"}}
-              action="https://blog.neet.club"
-              method="get"
+              GitHub
+            </a>
+            <a
+              href="https://blog.neet.club"
+              target="_blank"
+              rel="noopener noreferer"
+              className="bg-gray-500 hover:bg-gray-400 text-white font-bold py-2 px-4 rounded my-10 mx-5"
             >
-              <button className="bg-gray-500 text-white font-bold py-2 px-4 rounded my-10 mx-5">
-                blog
-              </button>
-            </form>
+              blog
+            </a>
           </div>
         </div>
       </div>
