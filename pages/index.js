@@ -22,7 +22,7 @@ export default function Home() {
           etc.
         </h2>
         <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white">
-          I'm involved in...
+          I&apos;m involved in...
         </h3>
         <div className="w-full">
           <ProjectCard
