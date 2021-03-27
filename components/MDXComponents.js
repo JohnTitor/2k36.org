@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import Tweet from 'react-tweet-embed';
 
 const CustomLink = (props) => {
   const href = props.href;
@@ -19,8 +18,7 @@ const CustomLink = (props) => {
 
 const MDXComponents = {
   Image,
-  a: CustomLink,
-  Tweet
+  a: CustomLink
 };
 
 export default MDXComponents;
