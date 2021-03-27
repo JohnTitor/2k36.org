@@ -18,7 +18,7 @@ const CustomLink = (props) => {
 
 const MDXComponents = {
   Image,
-  a: CustomLink
+  a: CustomLink,
 };
 
 export default MDXComponents;

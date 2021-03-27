@@ -7,7 +7,7 @@ async function generate() {
   const feed = new RSS({
     title: 'NEET club',
     site_url: 'https://www.neet.club',
-    feed_url: 'https://www.neet.club/feed.xml'
+    feed_url: 'https://www.neet.club/feed.xml',
   });
 
   const posts = await fs.readdir(path.join(__dirname, '..', 'data', 'blog'));
@@ -23,7 +23,7 @@ async function generate() {
         title: frontmatter.data.title,
         url: 'https://www.neet.club/blog/' + name.replace(/\.mdx?/, ''),
         date: frontmatter.data.publishedAt,
-        description: frontmatter.data.summary
+        description: frontmatter.data.summary,
       });
     })
   );

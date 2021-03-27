@@ -43,12 +43,11 @@ export default function About() {
         </h1>
         <div className="mb-8 prose leading-6 text-gray-600 dark:text-gray-400">
           <p>
-            I'm a self-taught programmer with interests in FLOSS (Free/Libre and Open Source Software).
-            I'm mainly working on the Rust programming language as a contributor and a member of some teams/WGs.
+            I'm a self-taught programmer with interests in FLOSS (Free/Libre and
+            Open Source Software). I'm mainly working on the Rust programming
+            language as a contributor and a member of some teams/WGs.
           </p>
-          <p>
-            More details should be written later.
-          </p>
+          <p>More details should be written later.</p>
         </div>
       </div>
     </Container>
