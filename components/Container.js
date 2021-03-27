@@ -56,7 +56,15 @@ export default function Container(props) {
           aria-label="Toggle Dark Mode"
           type="button"
           className="bg-gray-200 dark:bg-gray-800 rounded p-3 h-10 w-10"
-          onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
+          onClick={() =>
+            setTheme(
+              theme === 'dark' ||
+                (!('theme' in localStorage) &&
+                  window.matchMedia('(prefers-color-scheme: dark)').matches)
+                ? 'light'
+                : 'dark'
+            )
+          }
         >
           {mounted && (
             <svg
@@ -66,7 +74,9 @@ export default function Container(props) {
               stroke="currentColor"
               className="h-4 w-4 text-gray-800 dark:text-gray-200"
             >
-              {theme === 'dark' ? (
+              {theme === 'dark' ||
+              (!('theme' in localStorage) &&
+                window.matchMedia('(prefers-color-scheme: dark)').matches) ? (
                 <path
                   strokeLinecap="round"
                   strokeLinejoin="round"
