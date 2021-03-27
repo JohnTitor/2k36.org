@@ -9,7 +9,7 @@ const prettier = require('prettier');
     'pages/*.js',
     'data/**/*.mdx',
     '!pages/_*.js',
-    '!pages/api'
+    '!pages/api',
   ]);
 
   const sitemap = `
@@ -36,7 +36,7 @@ const prettier = require('prettier');
 
   const formatted = prettier.format(sitemap, {
     ...prettierConfig,
-    parser: 'html'
+    parser: 'html',
   });
 
   // eslint-disable-next-line no-sync

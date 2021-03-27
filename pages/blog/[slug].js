@@ -6,7 +6,7 @@ import MDXComponents from '@/components/MDXComponents';
 
 export default function Blog({ mdxSource, frontMatter }) {
   const content = hydrate(mdxSource, {
-    components: MDXComponents
+    components: MDXComponents,
   });
 
   return <BlogLayout frontMatter={frontMatter}>{content}</BlogLayout>;
@@ -18,10 +18,10 @@ export async function getStaticPaths() {
   return {
     paths: posts.map((p) => ({
       params: {
-        slug: p.replace(/\.mdx/, '')
-      }
+        slug: p.replace(/\.mdx/, ''),
+      },
     })),
-    fallback: false
+    fallback: false,
   };
 }
 

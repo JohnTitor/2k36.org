@@ -20,7 +20,7 @@ export default function Container(props) {
     description: `Welcome to the NEET club`,
     image: 'https://github.com/JohnTitor.png',
     type: 'website',
-    ...customMeta
+    ...customMeta,
   };
 
   return (
