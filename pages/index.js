@@ -50,36 +50,43 @@ export default function Home() {
             title="E-mail"
             description="huyuumi@neet.club"
             href="mailto:huyuumi@neet.club"
+            recommended="true"
           />
           <AccountCard
             title="Twitter"
             description="@fr4ternite"
             href="https://twitter.com/fr4ternite"
+            recommended="true"
           />
           <AccountCard
             title="GitHub"
             description="@JohnTitor"
             href="https://github.com/JohnTitor"
+            recommended="false"
           />
           <AccountCard
             title="Keybase"
             description="justmonika"
             href="https://keybase.io/justmonika"
+            recommended="false"
           />
           <AccountCard
             title="Discord"
             description="huyuumi#8864"
             href=""
+            recommended="false"
           />
           <AccountCard
             title="Telegram"
             description="@sn0bbery"
             href="https://t.me/sn0bbery"
+            recommended="true"
           />
           <AccountCard
             title="Mastodon"
             description="@h@mastodon.online"
             href="https://mastodon.online/@h"
+            recommended="false"
           />
         </div>
       </div>
