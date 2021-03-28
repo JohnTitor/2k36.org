@@ -22,7 +22,7 @@ export default function Blog({ posts }) {
           Humanlike - My Blog
         </h1>
         <p className="text-gray-600 dark:text-gray-400 mb-4">
-          {`――Humanlike, though I&apos;m a brute, a sad existence.
+          {`――Humanlike, though I'm a brute, a sad existence.
             There're ${posts.length} posts.
             Use the search bar below to filter by title.`}
         </p>
