@@ -50,6 +50,7 @@ export default function BlogLayout({ children, frontMatter }) {
             href={tweetUrl(frontMatter)}
             target="_blank"
             rel="noopener noreferrer"
+            className="hover:text-gray-900 dark:hover:text-gray-400"
           >
             {'Tweet this post'}
           </a>
@@ -58,6 +59,7 @@ export default function BlogLayout({ children, frontMatter }) {
             href={editUrl(frontMatter.slug)}
             target="_blank"
             rel="noopener noreferrer"
+            className="hover:text-gray-900 dark:hover:text-gray-400"
           >
             {'Edit on GitHub'}
           </a>

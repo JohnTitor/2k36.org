@@ -21,9 +21,11 @@ export default function Blog({ posts }) {
         <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white">
           Humanlike - My Blog
         </h1>
+        <p className="text-gray-600 dark:text-gray-400 my-4">
+          ――Humanlike, though I&apos;m a brute, a sad existence.
+        </p>
         <p className="text-gray-600 dark:text-gray-400 mb-4">
-          {`――Humanlike, though I'm a brute, a sad existence.
-            There're ${posts.length} posts.
+          {`There're ${posts.length} posts.
             Use the search bar below to filter by title.`}
         </p>
         <div className="relative w-full mb-4">
