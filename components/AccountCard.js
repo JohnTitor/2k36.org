@@ -3,7 +3,6 @@ export default function AccountCard({ title, description, href, recommended }) {
     recommended === 'true' ? (
       <div
         className="flex items-center border border-gray-200 hover:shadow dark:border-gray-800 rounded p-4"
-        title="Recommended to contact"
       >
         <div>
           <h4 className="text-lg font-bold mb-3 tracking-tight text-gray-900 dark:text-gray-100">
@@ -47,7 +46,6 @@ export default function AccountCard({ title, description, href, recommended }) {
       aria-label={title}
       target="_blank"
       rel="noopener noreferrer"
-      title="Recommended to contact"
     >
       <div className="flex items-center border border-gray-200 dark:border-gray-800 rounded p-4">
         <div>

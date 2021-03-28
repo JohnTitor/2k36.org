@@ -45,7 +45,10 @@ export default function Home() {
         <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white">
           Social accounts &amp; Contacts
         </h3>
-        <div className="grid grid-cols-2 w-full gap-3">
+        <p className="prose text-gray-600 dark:text-gray-400 mb-4">
+          I may response quickly on the accounts having "thumbs-up".
+        </p>
+        <div className="grid grid-cols-1 sm:grid-cols-2 w-full gap-3">
           <AccountCard
             title="E-mail"
             description="huyuumi@neet.club"
