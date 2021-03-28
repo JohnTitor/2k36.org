@@ -11,7 +11,7 @@ module.exports = {
         'gray-800': 'rgb(51 51 51)'
       },
       fontFamily: {
-        sans: ['Inter', ...fontFamily.sans]
+        sans: ['Lora', ...fontFamily.sans]
       },
       typography: (theme) => ({
         DEFAULT: {
