@@ -1,5 +1,6 @@
 import Image from 'next/image';
 
+import AccountCard from '../components/AccountCard';
 import Container from '../components/Container';
 import ProjectCard from '../components/ProjectCard';
 
@@ -39,6 +40,46 @@ export default function Home() {
             title="GNOME"
             description="I'm working on Japanese translations as a GNOME foundation member."
             href="https://www.gnome.org/"
+          />
+        </div>
+        <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white">
+          Social accounts &amp; Contacts
+        </h3>
+        <div className="grid grid-cols-2 w-full gap-3">
+          <AccountCard
+            title="E-mail"
+            description="huyuumi@neet.club"
+            href="mailto:huyuumi@neet.club"
+          />
+          <AccountCard
+            title="Twitter"
+            description="@fr4ternite"
+            href="https://twitter.com/fr4ternite"
+          />
+          <AccountCard
+            title="GitHub"
+            description="@JohnTitor"
+            href="https://github.com/JohnTitor"
+          />
+          <AccountCard
+            title="Keybase"
+            description="justmonika"
+            href="https://keybase.io/justmonika"
+          />
+          <AccountCard
+            title="Discord"
+            description="huyuumi#8864"
+            href=""
+          />
+          <AccountCard
+            title="Telegram"
+            description="@sn0bbery"
+            href="https://t.me/sn0bbery"
+          />
+          <AccountCard
+            title="Mastodon"
+            description="@h@mastodon.online"
+            href="https://mastodon.online/@h"
           />
         </div>
       </div>
