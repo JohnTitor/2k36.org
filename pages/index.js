@@ -51,8 +51,8 @@ export default function Home() {
         <div className="grid grid-cols-1 sm:grid-cols-2 w-full gap-3">
           <AccountCard
             title="E-mail"
-            description="huyuumi@neet.club"
-            href="mailto:huyuumi@neet.club"
+            description="jtitor@2k36.org"
+            href="mailto:jtitor@2k36.org"
             recommended="true"
           />
           <AccountCard
