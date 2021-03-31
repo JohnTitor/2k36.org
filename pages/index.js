@@ -12,7 +12,7 @@ export default function Home() {
           alt="Yuki Okushi"
           height={100}
           width={100}
-          src="/avatar.jpg"
+          src="/realpic.jpg"
           className="rounded-full"
         />
         <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white">

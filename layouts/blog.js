@@ -29,7 +29,7 @@ export default function BlogLayout({ children, frontMatter }) {
               alt="Yuki Okushi"
               height={24}
               width={24}
-              src="/avatar.jpg"
+              src="/realpic.jpg"
               className="rounded-full"
             />
             <p className="text-sm text-gray-700 dark:text-gray-300 ml-2">

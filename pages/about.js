@@ -16,6 +16,15 @@ export default function About() {
           </p>
           <p>More details should be written later.</p>
         </div>
+        <div className="mb-8 prose leading-6 text-gray-600 dark:text-gray-400">
+          <p>
+            I&apos;m a self-taught programmer with interests in FLOSS
+            (Free/Libre and Open Source Software). I&apos;m mainly working on
+            the Rust programming language as a contributor and a member of some
+            teams/WGs.
+          </p>
+          <p>More details should be written later.</p>
+        </div>
       </div>
     </Container>
   );
