@@ -5,9 +5,9 @@ const matter = require('gray-matter');
 
 async function generate() {
   const feed = new RSS({
-    title: 'NEET club',
-    site_url: 'https://www.neet.club',
-    feed_url: 'https://www.neet.club/feed.xml',
+    title: '2k36',
+    site_url: 'https://www.2k36.org',
+    feed_url: 'https://www.2k36.org/feed.xml',
   });
 
   const posts = await fs.readdir(path.join(__dirname, '..', 'data', 'blog'));
@@ -21,7 +21,7 @@ async function generate() {
 
       feed.item({
         title: frontmatter.data.title,
-        url: 'https://www.neet.club/blog/' + name.replace(/\.mdx?/, ''),
+        url: 'https://www.2k36.org/blog/' + name.replace(/\.mdx?/, ''),
         date: frontmatter.data.publishedAt,
         description: frontmatter.data.summary,
       });

@@ -1,3 +1,3 @@
-# neet.club
+# 2k36.org
 
-https://www.neet.club
+https://www.2k36.org

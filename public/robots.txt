@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://www.neet.club/sitemap.xml
+Sitemap: https://www.2k36.org/sitemap.xml

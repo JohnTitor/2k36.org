@@ -4,10 +4,10 @@ import { parseISO, format } from 'date-fns';
 import Container from '@/components/Container';
 
 const editUrl = (slug) =>
-  `https://github.com/JohnTitor/neet.club/edit/main/data/blog/${slug}.mdx`;
+  `https://github.com/JohnTitor/2k36.org/edit/main/data/blog/${slug}.mdx`;
 const tweetUrl = (frontMatter) =>
   `https://twitter.com/intent/tweet?url=${encodeURIComponent(
-    `https://www.neet.club/blog/${frontMatter.slug}`
+    `https://www.2k36.org/blog/${frontMatter.slug}`
   )}&text=${frontMatter.title}+%2F`;
 
 export default function BlogLayout({ children, frontMatter }) {
@@ -15,7 +15,7 @@ export default function BlogLayout({ children, frontMatter }) {
     <Container
       title={`${frontMatter.title} – Humanlike`}
       description={frontMatter.summary}
-      image={`https://www.neet.club${frontMatter.image}`}
+      image={`https://www.2k36.org${frontMatter.image}`}
       date={new Date(frontMatter.publishedAt).toISOString()}
       type="article"
     >

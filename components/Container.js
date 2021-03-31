@@ -16,8 +16,8 @@ export default function Container(props) {
   const { children, ...customMeta } = props;
   const router = useRouter();
   const meta = {
-    title: 'NEET club',
-    description: `Welcome to the NEET club`,
+    title: '2k36',
+    description: `This is the choice of Steins Gate.`,
     image: 'https://github.com/JohnTitor.png',
     type: 'website',
     ...customMeta,
@@ -31,11 +31,11 @@ export default function Container(props) {
         <meta content={meta.description} name="description" />
         <meta
           property="og:url"
-          content={`https://www.neet.club${router.asPath}`}
+          content={`https://www.2k36.org${router.asPath}`}
         />
-        <link rel="canonical" href={`https://www.neet.club${router.asPath}`} />
+        <link rel="canonical" href={`https://www.2k36.org${router.asPath}`} />
         <meta property="og:type" content={meta.type} />
-        <meta property="og:site_name" content="NEET club" />
+        <meta property="og:site_name" content="2k36" />
         <meta property="og:description" content={meta.description} />
         <meta property="og:title" content={meta.title} />
         <meta property="og:image" content={meta.image} />
