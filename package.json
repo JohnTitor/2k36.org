@@ -6,7 +6,8 @@
   "scripts": {
     "build": "next build",
     "dev": "next",
-    "start": "next start"
+    "start": "next start",
+    "format": "prettier --write \"./**/*.js\""
   },
   "dependencies": {
     "@mapbox/rehype-prism": "0.6.0",

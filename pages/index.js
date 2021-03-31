@@ -18,7 +18,7 @@ export default function Home() {
         <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white">
           Yuki Okushi
         </h1>
-        <h2 className="prose text-gray-600 dark:text-gray-400 mb-16">
+        <h2 className="prose text-gray-600 dark:text-gray-400 mb-8">
           Yuki Okushi is a FLOSS nerd, Japanese codewriting ninja, Rustacean,
           etc.
         </h2>

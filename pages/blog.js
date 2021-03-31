@@ -24,6 +24,10 @@ export default function Blog({ posts }) {
         <p className="text-gray-600 dark:text-gray-400 my-4">
           ――Humanlike, though I&apos;m a brute, a sad existence.
         </p>
+        <p className="text-gray-600 dark:text-gray-400 my-4">
+          I write monthly contribution reports at the beginning of next month.
+          Some other posts may be added.
+        </p>
         <p className="text-gray-600 dark:text-gray-400 mb-4">
           {`There're ${posts.length} posts.
             Use the search bar below to filter by title.`}
