@@ -16,7 +16,7 @@ export default function Container(props) {
   const { children, ...customMeta } = props;
   const router = useRouter();
   const meta = {
-    title: '2k36',
+    title: '2k36.org',
     description: `This is the choice of Steins Gate.`,
     image: 'https://github.com/JohnTitor.png',
     type: 'website',

@@ -5,7 +5,7 @@ const matter = require('gray-matter');
 
 async function generate() {
   const feed = new RSS({
-    title: '2k36',
+    title: '2k36.org',
     site_url: 'https://www.2k36.org',
     feed_url: 'https://www.2k36.org/feed.xml',
   });
