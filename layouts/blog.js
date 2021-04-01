@@ -8,7 +8,7 @@ const editUrl = (slug) =>
 const tweetUrl = (frontMatter) =>
   `https://twitter.com/intent/tweet?url=${encodeURIComponent(
     `https://www.2k36.org/blog/${frontMatter.slug}`
-  )}&text=${frontMatter.title}+%2F`;
+  )}&text=${frontMatter.title}+%2F+Humanlike`;
 
 export default function BlogLayout({ children, frontMatter }) {
   return (
