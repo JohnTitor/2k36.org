@@ -1,0 +1,31 @@
+name: Create an issue for contribution report
+
+on:
+  schedule:
+    # Run at noon UTC every 1st of the month
+    - cron: '00 12 01 * *'
+  # Allow manually starting the workflow
+  workflow_dispatch:
+
+jobs:
+  report-reminder:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Open an issue
+        uses: actions/github-script@v3
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const now = new Date();
+            const thisMonth = new Intl.DateTimeFormat('en-US', { month: 'long' }).format(now);
+            const thisYear = now.getFullYear();
+            const title = "Contribution report for " + thisMonth + ", " + thisYear;
+            const body = "Hello @JohnTitor! " + thisMonth + " is here, time to write last month's report :)";
+            github.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title,
+              body,
+            });
+            console.log('Opened issue.');
