@@ -18,11 +18,11 @@ export default function About() {
         </div>
         <div className="mb-8 prose leading-6 text-gray-600 dark:text-gray-400">
           <h2 className="prose text-gray-600 dark:text-gray-400 mb-16">
-            What&apos;s the "2k36"?
+            What&apos;s the &quot;2k36&quot;?
           </h2>
           <p>
-            I'm also known as "John Titor" because of my GitHub name. John Titor
-            is a time traveler came from the year 2036.
+            I&apos;m also known as &quot;John Titor&quot; because of my GitHub
+            name. John Titor is a time traveler came from the year 2036.
           </p>
         </div>
       </div>
