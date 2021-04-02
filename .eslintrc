@@ -1,13 +1,6 @@
 {
-  "plugins": [
-    "simple-import-sort",
-    "import"
-  ],
-  "extends": [
-    "eslint:recommended",
-    "plugin:react/recommended",
-    "prettier"
-  ],
+  "plugins": ["simple-import-sort", "import"],
+  "extends": ["eslint:recommended", "plugin:react/recommended", "prettier"],
   "env": {
     "es2021": true,
     "browser": true,
@@ -20,10 +13,7 @@
     "no-console": [
       2,
       {
-        "allow": [
-          "warn",
-          "error"
-        ]
+        "allow": ["warn", "error"]
       }
     ],
     "simple-import-sort/imports": "error",

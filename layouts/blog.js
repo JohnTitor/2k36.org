@@ -1,4 +1,4 @@
-import { format,parseISO } from 'date-fns';
+import { format, parseISO } from 'date-fns';
 import Image from 'next/image';
 
 import Container from '@/components/Container';
