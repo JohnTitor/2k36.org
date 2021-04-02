@@ -46,7 +46,7 @@ export default function Home() {
           Social accounts &amp; Contacts
         </h3>
         <p className="prose text-gray-600 dark:text-gray-400 mb-4">
-          I may response quickly on the accounts having "thumbs-up".
+          I may response quickly on the accounts having &quot;thumbs-up&quot;.
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 w-full gap-3">
           <AccountCard

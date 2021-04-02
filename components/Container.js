@@ -1,8 +1,8 @@
 import Head from 'next/head';
-import { useRouter } from 'next/router';
-import { useState, useEffect } from 'react';
-import { useTheme } from 'next-themes';
 import NextLink from 'next/link';
+import { useRouter } from 'next/router';
+import { useTheme } from 'next-themes';
+import { useEffect,useState } from 'react';
 
 import Footer from '@/components/Footer';
 
