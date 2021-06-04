@@ -14,7 +14,16 @@ export default function About() {
             the Rust programming language as a contributor and a member of some
             teams/WGs.
           </p>
-          <p>More details will be written later.</p>
+          <p>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/JohnTitor"
+            >
+              My profile README on GitHub
+            </a>{' '}
+            has some explanation about my FLOSS work.
+          </p>
         </div>
         <div className="mb-8 prose leading-6 text-gray-600 dark:text-gray-400">
           <h2 className="prose text-gray-600 dark:text-gray-400 mb-16">
