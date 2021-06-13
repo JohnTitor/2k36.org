@@ -74,6 +74,12 @@ export default function Home() {
             recommended="false"
           />
           <AccountCard
+            title="PGP"
+            description="0A50 9961 228F 3E44 0FA2  E02F 379C EEFD D63E 5DD7"
+            href="http://keys.gnupg.net/pks/lookup?search=0x0a509961228f3e440fa2e02f379ceefdd63e5dd7&fingerprint=on&exact=on&op=get&options=mr"
+            recommended="false"
+          />
+          <AccountCard
             title="Keybase"
             description="justmonika"
             href="https://keybase.io/justmonika"
@@ -83,7 +89,7 @@ export default function Home() {
             title="Discord"
             description="huyuumi#8864"
             href=""
-            recommended="false"
+            recommended="true"
           />
           <AccountCard
             title="Telegram"
