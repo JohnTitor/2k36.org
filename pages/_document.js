@@ -46,6 +46,7 @@ class MyDocument extends Document {
         <body className="bg-white dark:bg-black text-white dark:text-black">
           <Main />
           <NextScript />
+          <a type="hidden" rel="me" href="https://mastodon.online/@h"></a>
         </body>
       </Html>
     );

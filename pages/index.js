@@ -85,12 +85,6 @@ export default function Home() {
             href="https://t.me/sn0bbery"
             recommended="true"
           />
-          <AccountCard
-            title="Mastodon"
-            description="@h@mastodon.online"
-            href="https://mastodon.online/@h"
-            recommended="false"
-          />
         </div>
       </div>
     </Container>
