@@ -68,6 +68,12 @@ export default function Home() {
             recommended="false"
           />
           <AccountCard
+            title="GitLab"
+            description="@ambivalence"
+            href="https://gitlab.com/ambivalence"
+            recommended="false"
+          />
+          <AccountCard
             title="Keybase"
             description="justmonika"
             href="https://keybase.io/justmonika"
