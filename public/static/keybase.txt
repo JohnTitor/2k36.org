@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/justmonika
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.2k36.org
+  * I am justmonika (https://keybase.io/justmonika) on keybase.
+  * I have a public key with fingerprint 4202 AF8E 563D 8EEF 2D61  4142 0B8D EFBD BFD3 1068
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01206a1a78bc1d64d53df952e32f36af41a2de9d6966ec0b7276443a85bce9dca61b0a",
+      "fingerprint": "4202af8e563d8eef2d6141420b8defbdbfd31068",
+      "host": "keybase.io",
+      "key_id": "0b8defbdbfd31068",
+      "kid": "0101bedce5ed334f849275ac2c8d1abb2375a140b3515cf76124f44511ae35d892c00a",
+      "uid": "07649c5d80f606913d4ec241161ba419",
+      "username": "justmonika"
+    },
+    "service": {
+      "hostname": "www.2k36.org",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1623579476,
+  "expire_in": 157680000,
+  "prev": "e2b5569e516c9f5d63c02d7c9329db1813e65e7080d5123899bf7835a606f6da",
+  "seqno": 50,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMN2AnicZVJrTBRXGF2oxQItIIomtQpM1YIsOHced2YWgxSItL7oArGK2mUed9hx
+YWfZB2B5GBMCbdVSEkKRaEONIa4NpcYCtikqCJWlKEZSNCDYhoS6FrCU1rRFamdR
+f/X+ufnOPefc8335el55QRfkF3z8YefloTCz3w9djS5dbu9odikmqNIhzFCKWdDi
+hfIl5HCaLIqEGTAcEDjkAc+wgggkSEk0KckcTSCSkEnIyxTgCQlxEuQgRCIuMAQD
+KYrkWVoQNVjkIRBwHtNjsmLNQ3abXbE6NVuKwAleZhENSYlFSCYkCCigoQIrIVmQ
+BFkiAQ5ZTWhWHT6FFk7gHShBUTVMK0xP4/2f/zw3DgQkiYhGEklSMktxBEPzIiGy
+EuAFgSC1ClC4QNKAFmUGAoKSKYoGgEckLbEcIeKLuV1P7bSuOFHDcRnikAOkRCGR
+oADQ2uMpwPmIDmS38gVIYx90OZwFqlWx8Fi5HtPwIkVEvtH6ennGKS4uTiAsJExQ
+7Xma2mZXnaqo5msvZqfT5jD4lM5DtkUqEkzPTEyCYpW0SWqKImR3KKoVMwCNKToV
+nyuABEkzHMVAPYZKbIodmRQfg2Ygi2vH9w8q0iwRIdA05BANoMjJtARJESckRuRI
+gpMEwAISQRoxOItLNCBIluMEmWFJmte6l6HkG4wDFVpVzEBrpk4+T/N0KHlW3umy
+I6y8u2v/Ep1fkC7gRX/fiumCAsOeL56lOfRfMJteE7/ZE6VOjfTGmA+vHwgpo66d
+oTs3XIp/7D28u1AcT/l4ZPBG7D/LP3rp76prxp3j59wV1a3zN8J/JS6sSS34tqZy
+MrB83623D+6YG/vwSl/Wa8eQabh+zNF4uSjLa/RGhPTN5G2ZWMlFb2853Ux3DFYk
+/+y+tzbpPCF64n65H8JPGcpvdR6xz1Ss6w+NCzN+74nTp2XW7lHjm/TWyebNkDTP
+tz78re73J5vaz5ceqa5qfxJZEfVuxu3Rk2XuBubPhT+M3g8i209mTFVyO3qnO953
+O89dXWHa2NIRm7S+6fSa14/eP7bkQfrghTPb7qb+9PXWiOjOtBRyLnIsLPlqR/r1
+CD0Hsbq6B92hVzpr38iITcr5fHDXzaHsA4l7Dbvi6o3qxOpVDetWDwQvzC3P1n1y
+h3wUwA4vVL4T8h6zbNpE+A3OvpyY4u1Ouxk9EdixNKah/pvHJY10z8a/NjT2/egW
+SyZzPUmzu2Oa28Ktpu/8uXb+i7MPTpyFiYHZ94YXMmNWrVg2c9Q74c758i3/0i1R
++p7P9B7lUVDOaJZZNA68eTzYv2r+YviJbV0riwOmIzMLL7XVjCcFjA61ngooy9+b
+XRufe+er7U2u6k20ZetcUXl/yYitH8OuY+SrCyVZO7M+dSUUttw1n9qTgnUtvbjP
+UxPAtBUnZ6zdfzs+VOUO2FNdnv8AiLq9+Q==
+=DddZ
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/justmonika
+
+==================================================================
