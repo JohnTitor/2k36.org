@@ -59,7 +59,7 @@ export default function Home() {
             title="Twitter"
             description="@fr4ternite"
             href="https://twitter.com/fr4ternite"
-            recommended="true"
+            recommended="false"
           />
           <AccountCard
             title="GitHub"
@@ -92,10 +92,16 @@ export default function Home() {
             recommended="true"
           />
           <AccountCard
+            title="Matrix"
+            description="@snobbery:matrix.org"
+            href="https://matrix.to/#/@snobbery:matrix.org"
+            recommended="false"
+          />
+          <AccountCard
             title="Telegram"
             description="@sn0bbery"
             href="https://t.me/sn0bbery"
-            recommended="true"
+            recommended="false"
           />
         </div>
       </div>
