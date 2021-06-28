@@ -1,6 +1,11 @@
 {
   "plugins": ["simple-import-sort", "import"],
-  "extends": ["eslint:recommended", "plugin:react/recommended", "prettier", "plugin:@next/next/recommended"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "prettier",
+    "plugin:@next/next/recommended"
+  ],
   "env": {
     "es2021": true,
     "browser": true,
