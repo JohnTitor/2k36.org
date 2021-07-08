@@ -76,7 +76,7 @@ export default function Home() {
           <AccountCard
             title="PGP"
             description="0A50 9961 228F 3E44 0FA2  E02F 379C EEFD D63E 5DD7"
-            href="https://pgp.mit.edu/pks/lookup?op=get&search=0x379CEEFDD63E5DD7"
+            href="https://keys.openpgp.org/vks/v1/by-fingerprint/0A509961228F3E440FA2E02F379CEEFDD63E5DD7"
             recommended="false"
           />
           <AccountCard
