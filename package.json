@@ -36,7 +36,7 @@
     "remark-autolink-headings": "6.0.1",
     "remark-code-titles": "0.1.2",
     "remark-slug": "6.0.0",
-    "tailwindcss": "^2.2.4"
+    "tailwindcss": "^2.2.6"
   },
   "devDependencies": {
     "@tailwindcss/jit": "^0.1.18",
