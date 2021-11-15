@@ -1,8 +1,8 @@
 import Image from 'next/image';
-
 import AccountCard from '../components/AccountCard';
 import Container from '../components/Container';
 import ProjectCard from '../components/ProjectCard';
+
 
 export default function Home() {
   return (
@@ -12,7 +12,7 @@ export default function Home() {
           alt="Yuki Okushi"
           height={100}
           width={100}
-          src="/realpic.jpg"
+          src="/me.png"
           className="rounded-full"
         />
         <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white">
