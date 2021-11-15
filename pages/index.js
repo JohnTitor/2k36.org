@@ -1,8 +1,8 @@
 import Image from 'next/image';
+
 import AccountCard from '../components/AccountCard';
 import Container from '../components/Container';
 import ProjectCard from '../components/ProjectCard';
-
 
 export default function Home() {
   return (

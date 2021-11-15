@@ -1,7 +1,7 @@
-import Container from '@/components/Container';
 import { format, parseISO } from 'date-fns';
 import Image from 'next/image';
 
+import Container from '@/components/Container';
 
 const editUrl = (slug) =>
   `https://github.com/JohnTitor/2k36.org/edit/main/data/blog/${slug}.mdx`;
