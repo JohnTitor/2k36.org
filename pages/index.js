@@ -56,12 +56,6 @@ export default function Home() {
             recommended="true"
           />
           <AccountCard
-            title="Twitter"
-            description="@fr4ternite"
-            href="https://twitter.com/fr4ternite"
-            recommended="false"
-          />
-          <AccountCard
             title="GitHub"
             description="@JohnTitor"
             href="https://github.com/JohnTitor"
