@@ -1,8 +1,8 @@
 import Image from 'next/image';
+
 import AccountCard from '../components/AccountCard';
 import Container from '../components/Container';
 import ProjectCard from '../components/ProjectCard';
-
 
 export default function Home() {
   return (
@@ -83,18 +83,6 @@ export default function Home() {
             title="Keybase"
             description="justmonika"
             href="https://keybase.io/justmonika"
-            recommended="false"
-          />
-          <AccountCard
-            title="Discord"
-            description="huyuumi#8864"
-            href=""
-            recommended="true"
-          />
-          <AccountCard
-            title="Matrix"
-            description="@snobbery:matrix.org"
-            href="https://matrix.to/#/@snobbery:matrix.org"
             recommended="false"
           />
           <AccountCard

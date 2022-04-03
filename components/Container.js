@@ -1,10 +1,10 @@
-import Footer from '@/components/Footer';
-import { useTheme } from 'next-themes';
 import Head from 'next/head';
 import NextLink from 'next/link';
 import { useRouter } from 'next/router';
+import { useTheme } from 'next-themes';
 import { useEffect, useState } from 'react';
 
+import Footer from '@/components/Footer';
 
 export default function Container(props) {
   const [mounted, setMounted] = useState(false);
