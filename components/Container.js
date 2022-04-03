@@ -1,10 +1,10 @@
+import Footer from '@/components/Footer';
+import { useTheme } from 'next-themes';
 import Head from 'next/head';
 import NextLink from 'next/link';
 import { useRouter } from 'next/router';
-import { useTheme } from 'next-themes';
 import { useEffect, useState } from 'react';
 
-import Footer from '@/components/Footer';
 
 export default function Container(props) {
   const [mounted, setMounted] = useState(false);
@@ -40,6 +40,7 @@ export default function Container(props) {
         <meta property="og:title" content={meta.title} />
         <meta property="og:image" content={meta.image} />
         <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@sn0bbery" />
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.image} />

@@ -1,8 +1,8 @@
 import Image from 'next/image';
-
 import AccountCard from '../components/AccountCard';
 import Container from '../components/Container';
 import ProjectCard from '../components/ProjectCard';
+
 
 export default function Home() {
   return (
@@ -54,6 +54,12 @@ export default function Home() {
             description="jtitor@2k36.org"
             href="mailto:jtitor@2k36.org"
             recommended="true"
+          />
+          <AccountCard
+            title="Twitter"
+            description="@sn0bbery"
+            href="https://twitter.com/sn0bbery"
+            recommended="false"
           />
           <AccountCard
             title="GitHub"
