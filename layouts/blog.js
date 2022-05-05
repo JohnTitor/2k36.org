@@ -1,6 +1,8 @@
-import Container from '@/components/Container';
 import { format, parseISO } from 'date-fns';
 import Image from 'next/image';
+
+import Container from '@/components/Container';
+
 import Avatar from '../public/me.jpg';
 
 const editUrl = (slug) =>
