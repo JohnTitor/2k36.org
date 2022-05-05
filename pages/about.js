@@ -27,6 +27,25 @@ export default function About() {
         </div>
         <div className="mb-8 prose leading-6 text-gray-600 dark:text-gray-400">
           <h2 className="prose text-gray-600 dark:text-gray-400 mb-16">
+            Experience
+          </h2>
+          <h3 className="prose text-gray-600 dark:text-gray-400 mb-16">
+            Company
+          </h3>
+          <p>2021-2022: Huawei Technologies Co., Ltd.</p>
+          <p>2019-2019: Vega corporation Co., Ltd.</p>
+          <h3 className="prose text-gray-600 dark:text-gray-400 mb-16">
+            Open Source
+          </h3>
+          <p>2021-present: GNOME foundation member (translator)</p>
+          <p>2019-present: Node.js organization member (i18n, moderation)</p>
+          <p>
+            2019-present: rust-lang organization member (various areas, check on
+            GitHub)
+          </p>
+        </div>
+        <div className="mb-8 prose leading-6 text-gray-600 dark:text-gray-400">
+          <h2 className="prose text-gray-600 dark:text-gray-400 mb-16">
             What&apos;s the &quot;2k36&quot;?
           </h2>
           <p>
