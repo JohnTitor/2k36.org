@@ -1,7 +1,7 @@
+import Container from '@/components/Container';
 import { format, parseISO } from 'date-fns';
 import Image from 'next/image';
-
-import Container from '@/components/Container';
+import Avatar from '../public/me.jpg';
 
 const editUrl = (slug) =>
   `https://github.com/JohnTitor/2k36.org/edit/main/data/blog/${slug}.mdx`;
@@ -29,8 +29,9 @@ export default function BlogLayout({ children, frontMatter }) {
               alt="Yuki Okushi"
               height={24}
               width={24}
-              src="/me.png"
+              src={Avatar}
               className="rounded-full"
+              placeholder="blur"
             />
             <p className="text-sm text-gray-700 dark:text-gray-300 ml-2">
               {frontMatter.by}
