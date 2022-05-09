@@ -2,6 +2,7 @@ import { useState } from 'react';
 
 import BlogPost from '@/components/BlogPost';
 import Container from '@/components/Container';
+import ExternalLink from '@/components/ExternalLink';
 import { getAllFilesFrontMatter } from '@/lib/mdx';
 
 export default function Blog({ posts }) {
@@ -27,6 +28,13 @@ export default function Blog({ posts }) {
         <p className="text-gray-600 dark:text-gray-400 my-4">
           I write monthly contribution reports at the beginning of next month.
           Some other posts may be added.
+        </p>
+        <p className="text-gray-600 dark:text-gray-400 my-4">
+          My private diaries (Japanese) are on{' '}
+          <ExternalLink href="https://justmonika.fanbox.cc/">
+            pixivFANBOX
+          </ExternalLink>
+          .
         </p>
         <p className="text-gray-600 dark:text-gray-400 mb-4">
           {`There're ${posts.length} posts.
