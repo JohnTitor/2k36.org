@@ -1,15 +1,6 @@
 import Link from 'next/link';
 
-const ExternalLink = ({ href, children }) => (
-  <a
-    className="text-gray-500 hover:text-gray-600 transition"
-    target="_blank"
-    rel="noopener noreferrer"
-    href={href}
-  >
-    {children}
-  </a>
-);
+import ExternalLink from './ExternalLink';
 
 export default function Footer() {
   return (
