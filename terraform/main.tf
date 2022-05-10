@@ -7,27 +7,26 @@ terraform {
   }
 }
 
-data "vercel_project_directory" "twokthreesix" {
-  path = "./"
+provider "vercel" {
+
 }
 
-data "vercel_project" "twokthreesix" {
-  name = "www2k36org"
-}
-
-resource "vercel_deployment" "twokthreesix" {
-  project_id = data.vercel_project.twokthreesix.id
-  files = data.vercel_project_directory.twokthreesix.files
-  production = true
+resource "vercel_project" "with_next" {
+  name      = "www2k36org"
+  framework = "nextjs"
+  git_repository = {
+    type = "github"
+    repo = "JohnTitor/2k36.org"
+  }
 }
 
 resource "vercel_project_domain" "twokthreesix" {
-  project_id = data.vercel_project.twokthreesix.id
-  domain = "www.2k36.org"
+  project_id = vercel_project.with_next.id
+  domain     = "www.2k36.org"
 }
 
 resource "vercel_project_domain" "twokthreesix_redirect" {
-  project_id = data.vercel_project.twokthreesix.id
+  project_id = vercel_project.with_next.id
   domain     = "2k36.org"
 
   redirect             = vercel_project_domain.twokthreesix.domain
@@ -35,7 +34,7 @@ resource "vercel_project_domain" "twokthreesix_redirect" {
 }
 
 resource "vercel_project_domain" "twokthreesix_redirect2" {
-  project_id = data.vercel_project.twokthreesix.id
+  project_id = vercel_project.with_next.id
   domain     = "neet.club"
 
   redirect             = vercel_project_domain.twokthreesix.domain
@@ -43,7 +42,7 @@ resource "vercel_project_domain" "twokthreesix_redirect2" {
 }
 
 resource "vercel_project_domain" "twokthreesix_redirect3" {
-  project_id = data.vercel_project.twokthreesix.id
+  project_id = vercel_project.with_next.id
   domain     = "www.neet.club"
 
   redirect             = vercel_project_domain.twokthreesix.domain
@@ -51,7 +50,7 @@ resource "vercel_project_domain" "twokthreesix_redirect3" {
 }
 
 resource "vercel_project_domain" "twokthreesix_redirect4" {
-  project_id = data.vercel_project.twokthreesix.id
+  project_id = vercel_project.with_next.id
   domain     = "blog.neet.club"
 
   redirect             = vercel_project_domain.twokthreesix.domain
