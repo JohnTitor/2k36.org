@@ -101,7 +101,7 @@ export default function Home() {
           Sponsors
         </h3>
         <p className="prose text-gray-600 dark:text-gray-400 mb-4">
-          Huge thanks for all my sponsors!
+          A huge thanks to all my sponsors!
         </p>
         <div className="grid grid-cols-2 sm:grid-cols-4 w-full gap-3">
           {content.user.sponsorable.sponsors.Nodes.map((element) => {
