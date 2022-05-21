@@ -1,8 +1,11 @@
 import Image from 'next/image';
 
+import SponsorCard from '@/components/SponsorCard';
+
 import AccountCard from '../components/AccountCard';
 import Container from '../components/Container';
 import ProjectCard from '../components/ProjectCard';
+import content from '../data/sponsors';
 import Avatar from '../public/me.jpg';
 
 export default function Home() {
@@ -93,6 +96,23 @@ export default function Home() {
             href="https://t.me/sn0bbery"
             recommended="false"
           />
+        </div>
+        <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white">
+          Sponsors
+        </h3>
+        <p className="prose text-gray-600 dark:text-gray-400 mb-4">
+          Huge thanks for all my sponsors!
+        </p>
+        <div className="grid grid-cols-2 sm:grid-cols-4 w-full gap-3">
+          {content.user.sponsorable.sponsors.Nodes.map((element) => {
+            return (
+              <SponsorCard
+                key={element.user.username}
+                imageUrl={element.user.avatarUrl}
+                name={element.user.username}
+              />
+            );
+          })}
         </div>
       </div>
     </Container>
