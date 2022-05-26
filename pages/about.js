@@ -32,8 +32,8 @@ export default function About() {
           <h3 className="prose text-gray-600 dark:text-gray-400 mb-16">
             Company
           </h3>
-          <p>2021-2022: Huawei Technologies Co., Ltd.</p>
-          <p>2019-2019: Vega corporation Co., Ltd.</p>
+          <p>Mar. 2021-Mar. 2022: Huawei Technologies Co., Ltd.</p>
+          <p>Apr. 2019-Oct. 2019: Vega corporation Co., Ltd.</p>
           <h3 className="prose text-gray-600 dark:text-gray-400 mb-16">
             Open Source
           </h3>
