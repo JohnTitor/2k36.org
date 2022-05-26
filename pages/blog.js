@@ -30,9 +30,9 @@ export default function Blog({ posts }) {
           Some other posts may be added.
         </p>
         <p className="text-gray-600 dark:text-gray-400 my-4">
-          My private diaries (Japanese) are on{' '}
-          <ExternalLink href="https://justmonika.fanbox.cc/">
-            pixivFANBOX
+          My working logs (written in Japanese) are on{' '}
+          <ExternalLink href="https://times.2k36.org/">
+            times.2k36.org
           </ExternalLink>
           .
         </p>
