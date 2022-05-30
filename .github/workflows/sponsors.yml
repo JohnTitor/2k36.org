@@ -1,0 +1,40 @@
+name: Update sponsors
+on:
+  # Schedule daily updates
+  schedule:
+    - cron: 0 15 * * 0 # 0000 JST on Sunday
+  workflow_dispatch:
+
+jobs:
+  update-sponsors:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: actions/setup-go@v3
+        with:
+          go-version: '1.18'
+          cache: true
+          cache-dependency-path: go.sum
+
+      - run: go run main.go
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Check diff
+        continue-on-error: true
+        run: |
+        git add .
+        git diff --name-only --exit-code
+
+      - run: yarn fix:prettier
+        if: steps.diff.outcome == 'failure'
+
+      - name: Commit and push changes
+        if: steps.diff.outcome == 'failure'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "Update sponsors metadata"
+          git push
