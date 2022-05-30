@@ -44,6 +44,11 @@ export default function Container(props) {
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.image} />
+        <script
+          defer
+          src="https://static.cloudflareinsights.com/beacon.min.js"
+          data-cf-beacon='{"token": "f49d7d3e10bb42309eaf7555c9c29ff1"}'
+        />
         {meta.date && (
           <meta property="article:published_time" content={meta.date} />
         )}
