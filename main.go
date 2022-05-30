@@ -29,6 +29,7 @@ type sponsor struct {
 }
 
 func main() {
+	log.Println("Updating sponsors metadata...")
 	src := oauth2.StaticTokenSource(
 		&oauth2.Token{AccessToken: os.Getenv("GITHUB_TOKEN")},
 	)
@@ -39,6 +40,7 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
+	log.Println("Authentication succeeded")
 
 	file, err := os.Create("./data/sponsors.json")
 	if err != nil {
@@ -51,4 +53,5 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
+	log.Println("Completed to update")
 }
