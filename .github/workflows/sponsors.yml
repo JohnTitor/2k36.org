@@ -24,9 +24,7 @@ jobs:
       - name: Check diff
         id: diff
         continue-on-error: true
-        run: |
-          git add .
-          git diff --name-only --exit-code
+        run: git diff --name-only --exit-code
 
       - run: yarn fix:prettier
         if: ${{ steps.diff.outcome == 'failure' }}
