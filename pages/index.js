@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 import SponsorCard from '@/components/SponsorCard';
 
@@ -47,6 +48,10 @@ export default function Home() {
             href="https://www.gnome.org/"
           />
         </div>
+        <p className="prose text-gray-600 dark:text-gray-400 mb-4">
+          ...and more! See the <Link href="/about">about page</Link> for more
+          details.
+        </p>
         <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white">
           Social accounts &amp; Contacts
         </h3>
