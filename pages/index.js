@@ -1,5 +1,7 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
+import ExternalLink from '@/components/ExternalLink';
 import SponsorCard from '@/components/SponsorCard';
 
 import AccountCard from '../components/AccountCard';
@@ -47,6 +49,10 @@ export default function Home() {
             href="https://www.gnome.org/"
           />
         </div>
+        <p className="prose text-gray-600 dark:text-gray-400 mb-4">
+          ...and more! See the <Link href="/about">about page</Link> for more
+          details.
+        </p>
         <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white">
           Social accounts &amp; Contacts
         </h3>
@@ -114,6 +120,11 @@ export default function Home() {
             );
           })}
         </div>
+        <ExternalLink href="https://github.com/sponsors/JohnTitor">
+          <button className="inline-block px-6 py-2.5 bg-gray-300 text-gray-700 leading-tight rounded shadow-md hover:bg-gray-400 hover:shadow-lg hover:text-white focus:bg-gray-400 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-500 active:shadow-lg transition duration-150 ease-in-out mt-5">
+            Become a sponsor to Yuki Okushi on GitHub →
+          </button>
+        </ExternalLink>
       </div>
     </Container>
   );
