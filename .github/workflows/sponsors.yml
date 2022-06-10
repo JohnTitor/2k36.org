@@ -17,7 +17,7 @@ jobs:
           cache: true
           cache-dependency-path: go.sum
 
-      - run: go run main.go
+      - run: go run ./cmd/sync_sponsors_json
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
