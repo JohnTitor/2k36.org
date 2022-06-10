@@ -15,7 +15,7 @@ var query struct {
 		Sponsorable struct {
 			Sponsors struct {
 				TotalCount githubv4.Int
-				Nodes []sponsor
+				Nodes      []sponsor
 			} `graphql:"sponsors(first: 30)" json:"sponsors"`
 		} `graphql:"... on Sponsorable" json:"sponsorable"`
 	} `graphql:"user(login: \"JohnTitor\")" json:"user"`
@@ -23,7 +23,7 @@ var query struct {
 
 type sponsor struct {
 	User struct {
-		Login string `json:"username"`
+		Login     string `json:"username"`
 		AvatarURL string `graphql:"avatarUrl(size: 40)" json:"avatarUrl"`
 	} `graphql:"... on User" json:"user"`
 }
