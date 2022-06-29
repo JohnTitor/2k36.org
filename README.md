@@ -2,4 +2,4 @@
 
 https://www.2k36.org
 
-way
+way 2
