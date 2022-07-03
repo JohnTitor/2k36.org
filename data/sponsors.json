@@ -2,7 +2,7 @@
   "user": {
     "sponsorable": {
       "sponsors": {
-        "TotalCount": 18,
+        "TotalCount": 19,
         "Nodes": [
           {
             "user": {
@@ -20,6 +20,12 @@
             "user": {
               "username": "repi",
               "avatarUrl": "https://avatars.githubusercontent.com/u/1262692?s=40&v=4"
+            }
+          },
+          {
+            "user": {
+              "username": "sajattack",
+              "avatarUrl": "https://avatars.githubusercontent.com/u/1562711?s=40&u=c9ce64f1fc158de0ce1aae6ee19fd1b36e1348b7&v=4"
             }
           },
           {
@@ -67,7 +73,7 @@
           {
             "user": {
               "username": "evaporei",
-              "avatarUrl": "https://avatars.githubusercontent.com/u/15306309?s=40&u=f829468ed459909c51890e5a121142251728570e&v=4"
+              "avatarUrl": "https://avatars.githubusercontent.com/u/15306309?s=40&u=c05f43eab144b5dcffc798937587e58325cda3d6&v=4"
             }
           },
           {
