@@ -13,13 +13,14 @@ jobs:
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0
-      - run: |
-        touch foo.md
-        git config --global user.name "bot"
-        git config --global user.email "foo@example.com"
-        git switch -c foobar
-        git add -N .
-        git add -A
-        git commit -m "add foo.md"
-        body="generated\ntrigger commit: ${{ env.GITHUB_SHA }}"
-        gh pr create --title "add foo.md" --body="${body}"
+      - name: test
+        run: |
+          touch foo.md
+          git config --global user.name "bot"
+          git config --global user.email "foo@example.com"
+          git switch -c foobar
+          git add -N .
+          git add -A
+          git commit -m "add foo.md"
+          body="generated\ntrigger commit: ${{ env.GITHUB_SHA }}"
+          gh pr create --title "add foo.md" --body="${body}"
