@@ -25,5 +25,5 @@ jobs:
           git add -A
           git commit -m "add foo.md"
           git push -u origin foobar
-          body="generated\ntrigger commit: ${{ env.GITHUB_SHA }}"
+          body="generated. trigger commit: ${GITHUB_SHA}"
           gh pr create --title "add foo.md" --body="${body}"
