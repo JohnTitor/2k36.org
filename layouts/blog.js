@@ -33,7 +33,6 @@ export default function BlogLayout({ children, frontMatter }) {
               width={24}
               src={Avatar}
               className="rounded-full"
-              placeholder="blur"
             />
             <p className="text-sm text-gray-700 dark:text-gray-300 ml-2">
               {frontMatter.by}
