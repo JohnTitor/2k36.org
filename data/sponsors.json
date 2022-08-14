@@ -2,7 +2,7 @@
   "user": {
     "sponsorable": {
       "sponsors": {
-        "TotalCount": 18,
+        "TotalCount": 17,
         "Nodes": [
           {
             "user": {
@@ -38,12 +38,6 @@
             "user": {
               "username": "robjtede",
               "avatarUrl": "https://avatars.githubusercontent.com/u/3316789?s=40&u=5b6d5b45b7a2755584d2c57ecabf56f3eb292e21&v=4"
-            }
-          },
-          {
-            "user": {
-              "username": "styvane",
-              "avatarUrl": "https://avatars.githubusercontent.com/u/4968379?s=40&v=4"
             }
           },
           {
