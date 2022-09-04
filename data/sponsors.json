@@ -2,7 +2,7 @@
   "user": {
     "sponsorable": {
       "sponsors": {
-        "TotalCount": 17,
+        "TotalCount": 18,
         "Nodes": [
           {
             "user": {
@@ -104,6 +104,12 @@
             "user": {
               "username": "Shu-cpartner",
               "avatarUrl": "https://avatars.githubusercontent.com/u/68368336?s=40&u=7cf15ea9eb911967b64e21cbe434c220f4171639&v=4"
+            }
+          },
+          {
+            "user": {
+              "username": "AKIN2022",
+              "avatarUrl": "https://avatars.githubusercontent.com/u/105589390?s=40&u=55a6ad5b9c63e92cf889a00a83243cd56e151a63&v=4"
             }
           }
         ]
