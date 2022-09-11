@@ -13,7 +13,7 @@ export default function SponsorCard({ imageUrl, name }) {
             className="inline-block mb-3 mx-auto tracking-tight rounded-full place-self-center"
             src={imageUrl}
             width="40"
-            weight="40"
+            height="40"
           />
           <p className="leading-5 text-gray-700 dark:text-gray-300 place-self-center">
             {name}
