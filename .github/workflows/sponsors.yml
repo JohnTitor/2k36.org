@@ -21,22 +21,19 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Check diff
-        id: diff
-        continue-on-error: true
-        run: git diff --name-only --exit-code
-
       - name: Setup node
         uses: actions/setup-node@v3
-        if: ${{ steps.diff.outcome == 'failure' }}
         with:
           node-version: '16'
 
       - run: yarn
-        if: ${{ steps.diff.outcome == 'failure' }}
 
       - run: yarn fix:prettier
-        if: ${{ steps.diff.outcome == 'failure' }}
+
+      - name: Check diff
+        id: diff
+        continue-on-error: true
+        run: git diff --name-only --exit-code
 
       - name: Commit and push changes
         if: ${{ steps.diff.outcome == 'failure' }}
