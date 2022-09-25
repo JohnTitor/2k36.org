@@ -2,7 +2,7 @@
   "user": {
     "sponsorable": {
       "sponsors": {
-        "TotalCount": 18,
+        "TotalCount": 17,
         "Nodes": [
           {
             "user": {
@@ -42,12 +42,6 @@
           },
           {
             "user": {
-              "username": "euxn23",
-              "avatarUrl": "https://avatars.githubusercontent.com/u/5271091?s=40&u=741b38f54eda760795cfdb25cc845815d53ebf88&v=4"
-            }
-          },
-          {
-            "user": {
               "username": "dorayakikun",
               "avatarUrl": "https://avatars.githubusercontent.com/u/6278699?s=40&u=7fda067a584515dbcc6929a57411ecaa9278eb2e&v=4"
             }
@@ -61,7 +55,7 @@
           {
             "user": {
               "username": "lambdasawa",
-              "avatarUrl": "https://avatars.githubusercontent.com/u/9388092?s=40&u=dad37f81fcdaa7f0d7e9f00d2dff0887ffe885e7&v=4"
+              "avatarUrl": "https://avatars.githubusercontent.com/u/9388092?s=40&u=50ea7cf098050c18661075ce8a96eb207551563e&v=4"
             }
           },
           {
