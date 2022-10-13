@@ -29,7 +29,7 @@ export default function About() {
           <h2 className="prose text-gray-600 dark:text-gray-400 mb-16">
             Experience
           </h2>
-          <h3 className="prose text-gray-600 dark:text-gray-400 mb-16">
+          <h3 className="prose text-gray-600 dark:text-gray-400">
             Open Source
           </h3>
           <p>May 2022-present: Kubernetes organization member</p>
@@ -40,9 +40,7 @@ export default function About() {
             2019-present: rust-lang organization member (various areas, check on
             GitHub)
           </p>
-          <h3 className="prose text-gray-600 dark:text-gray-400 mb-16">
-            Company
-          </h3>
+          <h3 className="prose text-gray-600 dark:text-gray-400">Company</h3>
           <p>May 2022-present: Secret, may be announced later</p>
           <p>Mar. 2021-Mar. 2022: Huawei Technologies Co., Ltd.</p>
           <p>Apr. 2019-Oct. 2019: Vega corporation Co., Ltd.</p>
