@@ -34,7 +34,7 @@
     "remark-autolink-headings": "6.1.0",
     "remark-code-titles": "0.1.2",
     "remark-slug": "6.1.0",
-    "tailwindcss": "^3.1.8"
+    "tailwindcss": "^3.2.1"
   },
   "devDependencies": {
     "eslint": "^8.25.0",
