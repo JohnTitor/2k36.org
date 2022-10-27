@@ -20,7 +20,7 @@
     "@mdx-js/react": "2.1.5",
     "@next/mdx": "12.3.1",
     "@tailwindcss/typography": "^0.5.7",
-    "autoprefixer": "^10.4.12",
+    "autoprefixer": "^10.4.13",
     "date-fns": "2.29.3",
     "gray-matter": "4.0.3",
     "mdx-prism": "0.3.4",
