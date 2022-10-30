@@ -11,8 +11,8 @@
     "lint:eslint": "eslint .",
     "lint:prettier": "prettier --check .",
     "fix": "run-s fix:prettier fix:eslint",
-    "fix:eslint": "yarn run lint:eslint -- --fix",
-    "fix:prettier": "yarn run lint:prettier -- --write"
+    "fix:eslint": "yarn run lint:eslint --fix",
+    "fix:prettier": "yarn run lint:prettier --write"
   },
   "dependencies": {
     "@mapbox/rehype-prism": "0.8.0",

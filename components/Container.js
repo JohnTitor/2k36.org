@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import NextLink from 'next/link';
 import { useRouter } from 'next/router';
+import Script from 'next/script';
 import { useTheme } from 'next-themes';
 import { useEffect, useState } from 'react';
 
@@ -44,15 +45,15 @@ export default function Container(props) {
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.image} />
-        <script
-          defer
-          src="https://static.cloudflareinsights.com/beacon.min.js"
-          data-cf-beacon='{"token": "f49d7d3e10bb42309eaf7555c9c29ff1"}'
-        />
         {meta.date && (
           <meta property="article:published_time" content={meta.date} />
         )}
       </Head>
+      <Script
+        defer
+        src="https://static.cloudflareinsights.com/beacon.min.js"
+        data-cf-beacon='{"token": "f49d7d3e10bb42309eaf7555c9c29ff1"}'
+      />
       <nav className="sticky-nav flex justify-between items-center max-w-4xl w-full p-8 my-0 md:my-8 mx-auto bg-white dark:bg-black/60 opacity-80">
         <a href="#skip" className="sr-only focus:not-sr-only">
           Skip to content
@@ -100,14 +101,23 @@ export default function Container(props) {
           )}
         </button>
         <div>
-          <NextLink href="/blog">
-            <a className="p-1 sm:p-4 text-gray-900 dark:text-gray-100">Blog</a>
+          <NextLink
+            href="/blog"
+            className="p-1 sm:p-4 text-gray-900 dark:text-gray-100"
+          >
+            Blog
           </NextLink>
-          <NextLink href="/about">
-            <a className="p-1 sm:p-4 text-gray-900 dark:text-gray-100">About</a>
+          <NextLink
+            href="/about"
+            className="p-1 sm:p-4 text-gray-900 dark:text-gray-100"
+          >
+            About
           </NextLink>
-          <NextLink href="/">
-            <a className="p-1 sm:p-4 text-gray-900 dark:text-gray-100">Home</a>
+          <NextLink
+            href="/"
+            className="p-1 sm:p-4 text-gray-900 dark:text-gray-100"
+          >
+            Home
           </NextLink>
         </div>
       </nav>
