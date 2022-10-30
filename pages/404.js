@@ -12,10 +12,11 @@ export default function NotFound() {
         <p className="text-gray-600 dark:text-gray-400 mb-8">
           Oh My GOSH! There&apos;s nothing here.
         </p>
-        <Link href="/">
-          <a className="p-1 sm:p-4 w-64 font-bold mx-auto bg-gray-100 dark:bg-gray-900 text-center rounded-md text-black dark:text-white">
-            Return Home
-          </a>
+        <Link
+          href="/"
+          className="p-1 sm:p-4 w-64 font-bold mx-auto bg-gray-100 dark:bg-gray-900 text-center rounded-md text-black dark:text-white"
+        >
+          Return Home
         </Link>
       </div>
     </Container>
