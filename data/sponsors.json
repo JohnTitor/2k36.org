@@ -2,7 +2,7 @@
   "user": {
     "sponsorable": {
       "sponsors": {
-        "TotalCount": 18,
+        "TotalCount": 19,
         "Nodes": [
           {
             "user": {
@@ -86,6 +86,12 @@
             "user": {
               "username": "uta8a",
               "avatarUrl": "https://avatars.githubusercontent.com/u/31395466?s=40&u=0f95f3341e1607167d673f8dc41541c0eebc1ebe&v=4"
+            }
+          },
+          {
+            "user": {
+              "username": "DPS0340",
+              "avatarUrl": "https://avatars.githubusercontent.com/u/32592965?s=40&u=25574634afda7ba4263ef4880df186db15b39ed3&v=4"
             }
           },
           {
