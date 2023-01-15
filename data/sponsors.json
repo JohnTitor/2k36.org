@@ -2,7 +2,7 @@
   "user": {
     "sponsorable": {
       "sponsors": {
-        "TotalCount": 20,
+        "TotalCount": 21,
         "Nodes": [
           {
             "user": {
@@ -14,6 +14,12 @@
             "user": {
               "username": "nazar-pc",
               "avatarUrl": "https://avatars.githubusercontent.com/u/928965?s=40&u=f5d781ca0eb5cb5c7ce9e5ee5d3b24dae3d6e987&v=4"
+            }
+          },
+          {
+            "user": {
+              "username": "nicholasbishop",
+              "avatarUrl": "https://avatars.githubusercontent.com/u/1023208?s=40&u=41792748d06db3336567fb2bf1d240ffd576733f&v=4"
             }
           },
           {
