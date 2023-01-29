@@ -2,7 +2,7 @@
   "user": {
     "sponsorable": {
       "sponsors": {
-        "TotalCount": 20,
+        "TotalCount": 19,
         "Nodes": [
           {
             "user": {
@@ -91,7 +91,7 @@
           {
             "user": {
               "username": "DPS0340",
-              "avatarUrl": "https://avatars.githubusercontent.com/u/32592965?s=40&u=25574634afda7ba4263ef4880df186db15b39ed3&v=4"
+              "avatarUrl": "https://avatars.githubusercontent.com/u/32592965?s=40&u=cf81ff9d0f57846095b22363dfae15d706117306&v=4"
             }
           },
           {
@@ -116,12 +116,6 @@
             "user": {
               "username": "embark-studios",
               "avatarUrl": "https://avatars.githubusercontent.com/u/52158206?s=40&u=3edd1cf5b9b7eea20fd7e80a0d358590d96bf045&v=4"
-            }
-          },
-          {
-            "user": {
-              "username": "Shu-cpartner",
-              "avatarUrl": "https://avatars.githubusercontent.com/u/68368336?s=40&u=7cf15ea9eb911967b64e21cbe434c220f4171639&v=4"
             }
           }
         ]
