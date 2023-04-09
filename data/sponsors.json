@@ -2,7 +2,7 @@
   "user": {
     "sponsorable": {
       "sponsors": {
-        "TotalCount": 18,
+        "TotalCount": 19,
         "Nodes": [
           {
             "user": {
@@ -44,6 +44,12 @@
             "user": {
               "username": "dorayakikun",
               "avatarUrl": "https://avatars.githubusercontent.com/u/6278699?s=40&u=7fda067a584515dbcc6929a57411ecaa9278eb2e&v=4"
+            }
+          },
+          {
+            "user": {
+              "username": "leon3s",
+              "avatarUrl": "https://avatars.githubusercontent.com/u/7750950?s=40&u=811f87772093eff8ebd04fd9f2a33318a2fefc98&v=4"
             }
           },
           {
