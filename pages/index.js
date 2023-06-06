@@ -97,9 +97,9 @@ export default function Home() {
             recommended="false"
           />
           <AccountCard
-            title="Telegram"
-            description="@sn0bbery"
-            href="https://t.me/sn0bbery"
+            title="Last.fm"
+            description="ShirayukiChiyo"
+            href="https://www.last.fm/user/ShirayukiChiyo"
             recommended="false"
           />
         </div>
