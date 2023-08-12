@@ -52,7 +52,7 @@
     "remark-parse": "^10.0.2",
     "remark-stringify": "^10.0.3",
     "rss": "1.2.2",
-    "unist-util-visit": "4.1.2"
+    "unist-util-visit": "5.0.0"
   },
   "repository": {
     "type": "git",
