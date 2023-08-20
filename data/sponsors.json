@@ -2,7 +2,7 @@
   "user": {
     "sponsorable": {
       "sponsors": {
-        "TotalCount": 16,
+        "TotalCount": 17,
         "Nodes": [
           {
             "user": {
@@ -92,6 +92,12 @@
             "user": {
               "username": "mshrtsr",
               "avatarUrl": "https://avatars.githubusercontent.com/u/33759872?s=40&u=7e39804c96a6d06705203c3653a2e315410e7d8e&v=4"
+            }
+          },
+          {
+            "user": {
+              "username": "brudnak",
+              "avatarUrl": "https://avatars.githubusercontent.com/u/40877149?s=40&u=788875e8447dbb1965d5ceb50d3f2243b05c750c&v=4"
             }
           },
           {
