@@ -67,10 +67,11 @@ export default function Home() {
             recommended="true"
           />
           <AccountCard
-            title="Twitter"
-            description="@sn0bbery"
-            href="https://twitter.com/sn0bbery"
-            recommended="false"
+            title="Mastodon"
+            description="@ggwp@mastodon.online"
+            href="https://mastodon.online/@ggwp"
+            rel="me"
+            recommended="true"
           />
           <AccountCard
             title="GitHub"
