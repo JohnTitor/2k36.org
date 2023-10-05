@@ -49,7 +49,7 @@
     "prettier": "2.8.8",
     "rehype": "13.0.1",
     "remark-frontmatter": "^4.0.1",
-    "remark-parse": "^10.0.2",
+    "remark-parse": "^11.0.0",
     "remark-stringify": "^10.0.3",
     "rss": "1.2.2",
     "unist-util-visit": "5.0.0"
