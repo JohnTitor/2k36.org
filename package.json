@@ -19,7 +19,7 @@
     "@mdx-js/loader": "2.3.0",
     "@mdx-js/react": "2.3.0",
     "@next/mdx": "^13.5.2",
-    "@tailwindcss/typography": "^0.5.9",
+    "@tailwindcss/typography": "^0.5.10",
     "autoprefixer": "^10.4.16",
     "date-fns": "2.30.0",
     "gray-matter": "4.0.3",
