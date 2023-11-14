@@ -34,6 +34,7 @@
     "remark-autolink-headings": "6.1.0",
     "remark-code-titles": "0.1.2",
     "remark-slug": "6.1.0",
+    "sharp": "^0.32.6",
     "tailwindcss": "^3.3.3"
   },
   "devDependencies": {
@@ -46,7 +47,7 @@
     "globby": "13.2.2",
     "image-size": "1.0.2",
     "npm-run-all": "^4.1.5",
-    "prettier": "2.8.8",
+    "prettier": "3.1.0",
     "rehype": "13.0.1",
     "remark-frontmatter": "^4.0.1",
     "remark-parse": "^11.0.0",
